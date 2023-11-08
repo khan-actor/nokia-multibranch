@@ -12,6 +12,6 @@ pipeline {
 	                 }}
 		stage('Deployment'){
 		   steps {
-		sh 'cp target/pipejob1.war /home/dev/Documents/devopssoftware/apache-tomcat-9.0.82/webapps'
+		sh 'cp target/pipejob2.war /home/dev/Documents/devopssoftware/apache-tomcat-9.0.82/webapps'
 			}}	
 }}
